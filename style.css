@@ -1611,23 +1611,24 @@ button.accordion-button:hover {
 .service-box:before {
     position: absolute;
     content: "";
-    width: 0%;
+    width: 100%;
 	transition:all ease .5s;
     left: -100px;
 	visibility:hidden;
     bottom: 0px;
+    left: 0;
+    opacity: 0;
     height:100%;
 	z-index:1;
   background:var(--primary-color);
 }
 .service-box:hover:before {
-    width: 100%;
+    opacity: 1;
 	visibility:visible;
-	transition:all ease .5s;
     left: 0px;
 }
   .service-box h2 {
-    font-size: 2.7rem;
+    font-size: 2rem;
     margin-bottom: 2.5rem;
     font-weight: 500;
     color: #3b3758;
