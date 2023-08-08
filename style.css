@@ -1418,6 +1418,7 @@ a.hire-btn {
 }
 a.hire-btn:hover {
     color: var(--primary-color);
+    padding: 1.5rem 3rem;
 }
 .counter-content {
   display: flex;
@@ -1878,6 +1879,8 @@ ul.work_menu {
 .work_box {
     overflow: hidden;
     position: relative;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
+    border-radius: 0.3rem;
 }
 
 .work_box .work_img {
