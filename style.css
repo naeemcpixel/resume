@@ -33,8 +33,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&amp;display=swap");
 :root {
   --heading-color: #120f2d;
+  --primary-color:#ffb400;
   --bg-color: #f6f5fd;
-  --yollow-color:#faca22;
   --body-color: #46435e;
   --theme-color: #3a44ca;
   --thm-clr-2: #ee4158;
@@ -188,7 +188,7 @@ select:focus {
  }
 
   span.colored{
-	  color:#F9CA22 !important;
+	  color:var(--primary-color) !important;
   }
  
  /* bounce-animate */
@@ -240,7 +240,7 @@ select:focus {
   height: 20px;
   position: absolute;
   animation: scroll1 5s ease-out infinite;
-  background:var(--yollow-color);
+  background:var(--primary-color);
 }
 .line_wrap .line_item {
   width: 32%;
@@ -259,27 +259,27 @@ select:focus {
 }
 .line_wrap .line_item:nth-child(odd):before {
   animation: scroll2 5s ease-out infinite;
-  background:var(--yollow-color);
+  background:var(--primary-color);
 }
 .line_wrap .line_item:nth-child(even):before {
   animation: scroll1 10s ease-out infinite;
-  background:var(--yollow-color);
+  background:var(--primary-color);
 }
 
 .line_wrap.line_white {
   border-left: 1px solid rgba(255, 255, 255, 0.07);
 }
 .line_wrap.line_white:before {
-  background-image: linear-gradient(0deg, var(--yollow-color), transparent);
+  background-image: linear-gradient(0deg, var(--primary-color), transparent);
 }
 .line_wrap.line_white .line_item {
   border-right: 1px solid rgba(255, 255, 255, 0.07);
 }
 .line_wrap.line_white .line_item:nth-child(odd):before {
-  background-image: linear-gradient(0deg, transparent, var(--yollow-color));
+  background-image: linear-gradient(0deg, transparent, var(--primary-color));
 }
 .line_wrap.line_white .line_item:nth-child(even):before {
-  background-image: linear-gradient(0deg, var(--yollow-color), transparent);
+  background-image: linear-gradient(0deg, var(--primary-color), transparent);
 }
 
 @keyframes scroll1 {
@@ -446,7 +446,7 @@ ul.navbar-nav li a {
 }
 .bsnav-mobile ul.navbar-nav li a.active,
 .bsnav-mobile ul.navbar-nav li a.hover{
-    color: var(--yollow-color) !important;	
+    color: var(--primary-color) !important;	
 }
 .bsnav-mobile ul.navbar-nav li a{
     color: var(--white-color) !important;	
@@ -471,7 +471,7 @@ ul.navbar-nav li a {
 
 .navbar-toggler .navbar-toggler-icon, .navbar-toggler .navbar-toggler-icon::after, .navbar-toggler .navbar-toggler-icon::before {
     width: 80%;
-    background-color: var(--yollow-color);	
+    background-color: var(--primary-color);	
     padding-right: 5px !important;
 }
 .navbar-toggler.toggler-spring .navbar-toggler-icon {
@@ -479,11 +479,11 @@ ul.navbar-nav li a {
 }
 .stickyadd ul.navbar-nav li a.active,
 .stickyadd ul.navbar-nav li a:hover {
-    color: var(--yollow-color) !important;
+    color: var(--primary-color) !important;
 }
 ul.navbar-nav li a:active,
 ul.navbar-nav li a:hover {
-    color: var(--yollow-color) !important;
+    color: var(--primary-color) !important;
 }
 a.navbar-brand {
     position: relative;
@@ -500,14 +500,14 @@ span.profile_name {
     z-index: 5;
     padding: 10px 0px;
     letter-spacing: .3px;
-    background: var(--yollow-color);
+    background: var(--primary-color);
     font-size: 16px;
     text-align: center;
     width: 100%;
     left: 0;
 }
 .bsnav-sidebar .navbar-nav .nav-item:hover .nav-link{
-	color:var(--yollow-color);
+	color:var(--primary-color);
 }
 .bsnav-sidebar .navbar-nav .nav-item {
     margin-bottom: 1.7rem;
@@ -850,7 +850,7 @@ p.copyright {
   line-height: 1;
   color: var(--black-color);
   display: inline-block;
-  background: #F9CA21;
+  background: var(--primary-color);
   transition:all ease .5s;
   }
   
@@ -1013,7 +1013,7 @@ span.typed-cursor {
 a.top-contact-btn {
     top: 0px;
     padding: 15px 30px !important;
-    background: #F9CA21 !important;
+    background: var(--primary-color) !important;
 	font-size:24px;
 	color:var(--black-color);
 }
@@ -1051,9 +1051,9 @@ a.top-contact-btn {
 }
 
 .right-social-icon ul.social-icon li a:hover {
-	color:var(--yollow-color);
+	color:var(--primary-color);
     border-radius: 8rem;
-	border:.1rem solid var(--yollow-color);
+	border:.1rem solid var(--primary-color);
 }
 .right-social-icon ul.social-icon li a i {
     text-align:center;
@@ -1160,7 +1160,7 @@ p.text-16.header_type_text span.typed {
   line-height: 32px;
   font-size: 28px;
   text-align: center;
-  color: var(--yollow-color);
+  color: var(--primary-color);
 }
 
 
@@ -1226,7 +1226,7 @@ p.text-16.header_type_text span.typed {
     font-size: 1.8rem; 
 }
 .about-cn ul li i {
-    color: var(--yollow-color) !important;
+    color: var(--primary-color) !important;
     font-size: 1.6rem;
     margin-right: 1.5rem;
 }
@@ -1272,7 +1272,7 @@ p.text-16.header_type_text span.typed {
   .progress-box .progress-bar {
     color: #fff;
     text-align: center;
-    background-color: var(--yollow-color); }
+    background-color: var(--primary-color); }
 
 /*-------------------------------------------------------
 9. Experience css
@@ -1343,7 +1343,7 @@ p.text-16.header_type_text span.typed {
     width: 6px;
     height: 6px;
     left: -51px;
-    background:var(--yollow-color);
+    background:var(--primary-color);
     top: 48%;
     border-radius: 5rem;
 	z-index:2;
@@ -1361,7 +1361,7 @@ p.text-16.header_type_text span.typed {
 .fun-icon i,
 .exp-icon i {
     font-size: 3.2rem;
-	color:var(--yollow-color) !important;	
+	color:var(--primary-color) !important;	
 	}
 	
   .exp-box h4 {
@@ -1403,7 +1403,7 @@ p.text-16.header_type_text span.typed {
 .video-box.fl-wrap a.video-box-btn {
     padding: 20px 25px;
     color: var(--black-color);
-    background: var(--yollow-color);
+    background: var(--primary-color);
     border-radius: 50px;
     height: 40px;
     width: 40px;
@@ -1411,13 +1411,13 @@ p.text-16.header_type_text span.typed {
 }
 
 a.hire-btn {
-    color: #F9CA21;
-    border: 2px solid #F9CA21;
+    color: var(--primary-color);
+    border: 2px solid var(--primary-color);
     background: transparent;
     padding: 1.5rem 3rem;
 }
 a.hire-btn:hover {
-    color: #F9CA21;
+    color: var(--primary-color);
 }
 .counter-content {
   display: flex;
@@ -1444,7 +1444,7 @@ a.hire-btn:hover {
     font-size: 3.2rem;
 	}
   .fun-icon i{
-	color:var(--yollow-color) !important;
+	color:var(--primary-color) !important;
   }	
   .fun-fact .fun-desc .timer {
     font-size: 2.2rem;
@@ -1582,7 +1582,7 @@ button.accordion-button:hover {
 ---------------------------------------------------------*/
 
 .service-box {
-  padding: 5.6rem 4rem;
+  padding: 4rem 4rem;
   background-color: var(--white-color);
   -webkit-border-radius: 10px;
   border-radius: 10px;
@@ -1618,7 +1618,7 @@ button.accordion-button:hover {
     bottom: 0px;
     height:100%;
 	z-index:1;
-  background:var(--yollow-color);
+  background:var(--primary-color);
 }
 .service-box:hover:before {
     width: 100%;
@@ -1700,7 +1700,7 @@ button.accordion-button:hover {
 	position:relative;
 }
 .price-icon i {
-    color: var(--yollow-color) !important;
+    color: var(--primary-color) !important;
 }
 .price-box {
   -webkit-border-radius: 10px;
@@ -1851,7 +1851,7 @@ ul.work_menu {
 .work_menu a:before{
 	position:absolute;
 	content:"";
-	background:#FACA22;
+	background:var(--primary-color);
 	height:2px;
 	width:0px;
 	transition:all ease .3s;
@@ -1866,7 +1866,7 @@ ul.work_menu {
 }
 .work_menu a.active,
 .work_menu a:hover {
-    color: #FACA22 !important;
+    color: var(--primary-color) !important;
 }
 
 .work_item {
@@ -1915,13 +1915,13 @@ ul.work_menu {
 
 .work_box .work_detail h4 {
     font-size: 18px;
-    color:var(--yollow-color);
+    color:var(--primary-color);
 }
 ul.blog-meta li i {
     margin-right: .4rem;
 }
 .work_box .work_detail p {
-    color:var(--yollow-color);
+    color:var(--primary-color);
     font-size: 14px;
 }
 
@@ -1996,7 +1996,7 @@ li.list-inline-item {
 
 .feedback-pc i {
     font-size: 4rem;
-    color: var(--yollow-color) !important;
+    color: var(--primary-color) !important;
 }	
   .feedback-box p {
     margin-bottom: 4rem; }
@@ -2025,14 +2025,14 @@ li.list-inline-item {
     width: 12px;
     height: 12px;
     border-radius: 5rem;
-    border: 1px solid  var(--yollow-color);
+    border: 1px solid  var(--primary-color);
     transition: 0.3s all;
     background-color:transparent;
 }
 
 .slick-dots li.slick-active button {
-    background-color:  var(--yollow-color);
-    border-color:  var(--yollow-color);
+    background-color:  var(--primary-color);
+    border-color:  var(--primary-color);
 }
 
 
@@ -2101,7 +2101,7 @@ li.list-inline-item {
 	transition:all .4s ease-in-out;
 	}
     .blog-box .blog-info .blog-title:hover {
-		color:var(--yollow-color);
+		color:var(--primary-color);
 	  }
 
 .blog-btn {
@@ -2138,12 +2138,13 @@ li.list-inline-item {
   position: relative;
   background-size: cover;
   width:100%;
-  background:#edbc11; 
+  background:var(--primary-color); 
   background-repeat: no-repeat;
   background-position: center center; 
 }
 span.resume-title.contact-title {
-    color: #f8e399;
+    color: #fff;
+    opacity: .5;
 }
 .contact-area {
     position: relative;
@@ -2294,7 +2295,7 @@ p.mb-0.contact_itext {
   width: 12px;
   height: 12px;
   z-index: 10000001;
-  background-color: var(--yollow-color);
+  background-color: var(--primary-color);
   -webkit-transition: width .3s ease-in-out, height .3s ease-in-out, margin .3s ease-in-out, opacity .3s ease-in-out;
   transition: width .3s ease-in-out, height .3s ease-in-out, margin .3s ease-in-out, opacity .3s ease-in-out;
 }
@@ -2303,7 +2304,7 @@ p.mb-0.contact_itext {
   margin-top: -30px;
   width: 60px;
   height: 60px;
-  background-color: var(--yollow-color);
+  background-color: var(--primary-color);
   opacity: .2;
 }
 
