@@ -50,7 +50,7 @@ jQuery(document).ready(function(){
 				event.preventDefault();
 				var sectionTo = $(this).attr('href');
 				$('html, body').stop().animate({
-				  scrollTop: $(sectionTo).offset().top}, 1500, 'easeInOutExpo');
+				  scrollTop: $(sectionTo).offset().top}, 300, 'easeInOutExpo');
 			});
 		   }
 		 else {
@@ -58,7 +58,7 @@ jQuery(document).ready(function(){
 				event.preventDefault();
 				var sectionTo = $(this).attr('href');
 				$('html, body').stop().animate({
-				  scrollTop: $(sectionTo).offset().top - 10}, 1500, 'easeInOutExpo');
+				  scrollTop: $(sectionTo).offset().top - 10}, 300, 'easeInOutExpo');
 			});
 		}
 
