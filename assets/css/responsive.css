@@ -9,16 +9,6 @@
 
 
 
-@media only screen and (min-width: 767px) and (max-width: 1200px){
-	.counter-left {
-		margin-right: 6%;
-		margin-left: 5%;
-	}
-.container {
-    max-width: 95%;
-}	
-}
-
 @media only screen and (min-width:992px) and (max-width: 1150px){
 .price-box {
     padding: 1rem;
@@ -70,9 +60,6 @@
 	}	
 }
 @media only screen and (min-width: 200px) and (max-width: 992px){
-	ul.navbar-nav {
-		padding: 20px 0px;
-	}
 	.main-area-width {
 		margin-left: 0rem;
 		margin-right: 0px;
@@ -99,9 +86,6 @@
 	ul.navbar-nav li a.active:before,
 	ul.navbar-nav li a:hover:before {
 		visibility:hidden;  
-	}
-	a.nav-link i{
-		padding-right:5px;
 	}
 	.bsnav-mobile .navbar-nav .nav-item .nav-link:hover,
 	.bsnav-mobile .navbar-nav .nav-item .nav-link:active {
@@ -406,9 +390,6 @@ ul.work_menu {
 	
 	/*NavBar*/
 	
-	.navbar ul.navbar-nav .nav-item a {
-		color: var(--heading-color) !important;
-	}
 
 	.navbar.sticked.in ul.navbar-nav .nav-item a {
 		color: var(--heading-color);
@@ -704,9 +685,6 @@ ul.work_menu {
 
 	/*NavBar*/
 	
-	.navbar ul.navbar-nav .nav-item a {
-		color: var(--heading-color) !important;
-	}
 
 	.navbar.sticked.in ul.navbar-nav .nav-item a {
 		color: var(--heading-color);
@@ -746,10 +724,6 @@ ul.work_menu {
 		height: auto;
 	}
 	
-	.navbar .navbar-expand-lg .navbar-nav .nav-item:last-child .nav-link,
-	.navbar .navbar-nav .nav-item:last-child .nav-link {
-		margin-right: 50px!important;
-	}
 	
 	/*	grids*/
 	
