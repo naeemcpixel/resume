@@ -1982,11 +1982,18 @@ li.list-inline-item {
     display: inline;
 }
 
+.icon-circle{
+  width: 8px;
+  height: 8px;
+  border-radius: 10rem;
+  background-color: var(--primary-color);
+  display: inline-block;
+  transform: translateY(-2px);
+  margin-right: 10px;
+}
 /*-------------------------------------------------------
 15. Feedback css 
 ---------------------------------------------------------*/
-.feedback-area {
-  @inclide bg-cs; }
 
   .feedback-area {
     position: relative;
